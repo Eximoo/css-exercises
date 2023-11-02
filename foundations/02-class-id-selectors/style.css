@@ -1,0 +1,17 @@
+.odd-class {
+    background-color: hsl(351, 48%, 77%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#arek {
+    color: blue;
+    font-size: 36px;
+}
+#third {
+    font-size: 24px;
+}
+#hulk {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}

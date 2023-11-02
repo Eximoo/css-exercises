@@ -14,16 +14,33 @@ body {
   align-items: center;
   justify-content: center;
 }
+.content-container > *{
+  margin: 5px;
+}
+.header-container{
+  display: flex;
+  align-items: top;
+}
+.header{
+  font-size: 20px;
+}
+.text{
+  margin-right: 0px;
+}
 
 .modal {
   background: white;
+  display: flex;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 10px;
 }
 
 .icon {
   color: royalblue;
+  margin: 8px;
+  flex: 0 0 auto;
   font-size: 26px;
   font-weight: 700;
   background: lavender;
@@ -37,6 +54,7 @@ body {
 
 .close-button {
   background: #eee;
+  margin-left: auto;
   border-radius: 50%;
   color: #888;
   font-weight: 400;
@@ -51,16 +69,19 @@ body {
 button {
   padding: 8px 16px;
   border-radius: 8px;
+  
 }
 
 button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  margin: 10px 1px;
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+  margin: 10px 0px;
 }

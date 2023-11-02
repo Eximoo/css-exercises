@@ -1,0 +1,12 @@
+.czorny,
+.zolty {
+    font-family: Arial, "Times New Roman", sans-serif;
+    font-size: 28px;
+}
+.czorny {
+    background-color: black;
+    color: white;
+}
+.zolty {
+    background-color: yellow;
+}
